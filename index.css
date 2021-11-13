@@ -1,0 +1,148 @@
+
+
+.navBar{
+    display:flex;
+    flex-direction: row;
+    font-size: x-large;
+    height: 40px;
+    padding-left: 30px;
+    align-items:inherit;
+    text-align: center;
+    flex: 1;
+    margin: 0px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(242 244 244);
+}
+
+i{
+    padding-right: 40px;
+    padding-top: 10px;
+}
+
+span{
+    padding-top: 10px;
+}
+input{
+    height: 40px;
+    width: 60vw;
+    margin-left: 10vw;
+    margin-right: 16vw;
+    border: 0px;
+    background-color: rgb(242 244 244);
+    padding-left:10px ;
+
+}
+
+.profile{
+    background-color: rgb(242 244 244) ;
+    text-align: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    align-items: flex-end;
+}
+
+#sidebar{
+    align-items: center;
+    min-width: 130px;
+    background-color: gainsboro;
+    height: auto;
+    overflow: auto;
+    padding: 20px;
+    font-weight: 800;
+
+
+}
+
+
+#selected{
+    color: red;
+}
+
+.sd1{
+    padding-top: 10px;
+    display: inline-block;
+}
+.fa {
+    display: inline;
+    padding-right: 1px;
+}
+
+.sd2{
+    padding-top: 10px;
+    display: inline;
+    
+}
+.fa-youtube{
+    /* display: ; */
+    color: red;
+}
+
+#main{
+    display: flex;
+    flex-direction:row ;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+.video{
+    width: 260px;
+    height: 180px;
+    background-color: rgb(242 244 244);
+    margin: 20px;
+    display: block;
+}
+
+
+
+.a{
+    display: inline-block;
+}
+.vcontent{
+    display: flex;
+    flex-direction: column; 
+    margin-bottom: 20px; 
+    margin-top: 10px;
+    width : 240px;
+    word-wrap: normal;
+    /*overflow:hidden;
+    display:inline-block;
+    text-overflow: ellipsis;*/
+    /* white-space: nowrap; */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+
+}
+
+tr{
+    padding-bottom: 20px;
+}
+
+.cnt{
+    display: inline;
+}
+
+.profile2{
+    /* display: flex;
+    flex-direction: row; */
+    padding-top: 10px;
+
+    background-color: rgb(242 244 244) ;
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 40px ;
+    height: 30px ;
+    align-items: flex-end;  
+}
+img{
+    display: block;
+    cursor:grab;
+}
